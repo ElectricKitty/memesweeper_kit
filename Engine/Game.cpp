@@ -72,7 +72,9 @@ void Game::UpdateModel()
 			switch( s )
 			{
 			case SelectionMenu::Size::Small:
+
 			case SelectionMenu::Size::Medium:
+
 			case SelectionMenu::Size::Large:
 				state = State::Memesweeper;
 			}
