@@ -289,5 +289,6 @@ bool MemeField::GameIsWon() const
 			return false;
 		}
 	}
+	delete field;
 	return true;
 }
